@@ -120,6 +120,10 @@ def munin_fetch():
 def munin_config():
     '''Print Munin plugin configuration'''
     known_names = munin_state()
+    if not known_names:
+        munin_fetch()
+        known_names = munin_state()
+
     response = []
     response.append(HEADER_CONFIG)
     for drive in Config.drives:
