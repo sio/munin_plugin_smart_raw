@@ -2,7 +2,7 @@
 
 ## Project status
 
-Work in progress
+Beta software
 
 
 ## Overview
