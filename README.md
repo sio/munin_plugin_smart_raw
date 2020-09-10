@@ -9,7 +9,7 @@ Work in progress
 
 This plugin tracks raw values of SMART parameters for specified drives
 
-<!-- TODO: add an example of generated chart -->
+![Example graph](example.png)
 
 
 ## Installation and usage
